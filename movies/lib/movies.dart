@@ -1,0 +1,22 @@
+library movies;
+
+export 'domain/usecases/get_now_playing_movie.dart';
+export 'domain/usecases/get_movie_detail.dart';
+export 'domain/usecases/get_movie_recommendations.dart';
+export 'domain/usecases/get_popular_movie.dart';
+export 'domain/usecases/get_top_rated_movie.dart';
+export 'domain/usecases/get_watchlist_movie.dart';
+export 'domain/usecases/get_watchlist_status_movie.dart';
+export 'domain/usecases/remove_watchlist_movie.dart';
+export 'domain/usecases/save_watchlist_movie.dart';
+export 'data/datasources/db/database_helper_movie.dart';
+export 'data/datasources/movie_local_data_source.dart';
+export 'data/datasources/movie_remote_data_source.dart';
+export 'data/repositories/movie_repository_impl.dart';
+export 'domain/repositories/movie_repository.dart';
+export 'presentation/bloc/movie_bloc.dart';
+export 'presentation/pages/home_movie_page.dart';
+export 'presentation/pages/movie_detail_page.dart';
+export 'presentation/pages/now_playing_movie.dart';
+export 'presentation/pages/popular_movie_page.dart';
+export 'presentation/pages/top_rated_movie.dart';
